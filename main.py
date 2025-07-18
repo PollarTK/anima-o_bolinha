@@ -17,7 +17,7 @@ def main():
 
     clock = pygame.time.Clock()
     while loop:
-        clock.tick(25)
+        clock.tick(30)
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit()

@@ -1,7 +1,7 @@
 import pygame
 
 class Player(pygame.sprite.Sprite):
-    NUM_SPRITES = 16
+    NUM_SPRITES = 28
 
     def __init__(self, pos_x, pos_y):
         super().__init__()
